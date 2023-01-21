@@ -5,11 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tianheg's Tech sites</title>
+  <style>
+    blockquote {
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: .5em 10px;
+    }
+    blockquote::before {
+      color: #ccc;
+      content: open-quote;
+      font-size: 4em;
+      line-height: .1em;
+      margin-right:.25em;
+      vertical-align: -.4em;
+    }
+    blockquote p {
+      display: inline;
+    }
+  </style>
 </head>
 
 <body>
   <h1>tianheg's Tech sites</h1>
-  <blockquote>My sites:</blockquote>
+  <blockquote><p>My sites:</p></blockquote>
   <ul>
     <li>MDN proxy</li>
     <li><a href="https://student.tianheg.org" target="_blank">学生信息管理系统</a></li>
